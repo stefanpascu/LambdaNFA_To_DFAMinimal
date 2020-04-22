@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1587561287 source:c:\facultate\poo-tema1_gr.131_pascu_stefan-liviu_anul-i_informatica\listacirculara\fromlambdafnatodfamin\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+
