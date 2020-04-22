@@ -998,18 +998,18 @@ ostream &operator << (ostream &out, NFA &auxo)
 int main()
 {
     NFA automat("afn.in");
-    //automat = lnfa_to_nfa(automat);
-    //cout<<automat;
+    automat = lnfa_to_nfa(automat);
+    cout<<automat;
 
-    //cout<<endl;
+    cout<<endl;
 
     automat = nfa_to_dfa(automat);
     cout<<automat;
 
-    //cout<<endl;
+    cout<<endl;
 
-    //automat = dfa_to_dfamin(automat);
-    //cout<<automat;
+    automat = dfa_to_dfamin(automat);
+    cout<<automat;
 
     return 0;
 }
